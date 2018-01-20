@@ -37,13 +37,13 @@ All nogo queries follow this pattern: Add the network geometry column (if it isn
 
 The following are some examples comparing the results of various pgRouting algorithms and their nogo counterparts:
 
-When comparing `pgr_drivingDistance` and `pgr_nogo_drivingDistance`, we can see that adding a nogo area changes how far the routing can extend.  The blue dots represent the nodes that can be reached in under a specified cost with no nogo restrictions.  The purple dots represent the same nodes that can be reached with nogo restrictions.
-
-(img1)
-
 When comparing `pgr_dijkstra` and `pgr_nogo_dijkstra`, we can see that adding a nogo area changes the route that gets returned by the algorithm.  The blue line represents the route that is taken with no nogo restrictions.  The purple route represents the route that is taken with a nogo restriction.
 
-(img2)
+![dijkstra_example_img](https://github.com/HsKA-OSGIS/GalaXYZ-NogoPgRouting/blob/master/img/dijkstra_example.png?raw=true)
+
+When comparing `pgr_drivingDistance` and `pgr_nogo_drivingDistance`, we can see that adding a nogo area changes how far the routing can extend.  The blue dots represent the nodes that can be reached in under a specified cost with no nogo restrictions.  The purple dots represent the same nodes that can be reached with nogo restrictions.
+
+![drivingDistance_example_img](https://github.com/HsKA-OSGIS/GalaXYZ-NogoPgRouting/blob/master/img/drivingDistance_example.png?raw=true)
 
 ## Credits
 
