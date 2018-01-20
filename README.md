@@ -52,6 +52,9 @@ These functions were developed as part of the class "Open Source GIS" at Hochsch
 The group consisted of:
 
 [Isaac Boates](https://www.linkedin.com/in/isaac-boates-338547100/)
+
 [Rob Coppinger](https://www.linkedin.com/in/rob-coppinger-456b17103/)
+
 [Anja Fürst](https://www.linkedin.com/in/anja-f%C3%BCrst-136899144/)
+
 [Olumide Igbiloba](https://www.linkedin.com/in/olumide-igbiloba/)
