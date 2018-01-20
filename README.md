@@ -4,6 +4,8 @@
 
 This repository contains a series of wrapper functions for [pgRouting](http://pgrouting.org/) functions that enable supplying "nogo areas" into the routing algorithm.  This has the effect of completely excluding the intersecting network edges from the routing operation.  The "nogo areas" are supplied as an additional parameter to the function, which is designed to resemble the original pgRouting functions as closely as possible.  All available functions can be found in the `/nogo_queries` folder.  A respository for a website demonstrates the use of routing with nogo areas can be found [here](https://github.com/HsKA-OSGIS/GalaXYZ) (We hope to have it hosted soon!)
 
+The functions have been developed for pgRouting v2.4.
+
 ## Adding functions to database
 
 To make a function available, simply execute the contents of the desired nogo routing function found in `/nogo_queries` folder.  There are also some test cases commented out at the bottom of each definition query.  Once the query has been successfully executed, the function is available for use.
